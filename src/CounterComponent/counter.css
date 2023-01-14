@@ -1,0 +1,16 @@
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    border: 1px solid #212121;
+    border-radius: 12px;
+    padding: 0 16px;
+}
+.counter_group{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { CounterComponent } from './CounterComponent';
+import { Input } from './input';
 
 function App() {
+  const handler = () => {
+    console.log('Кнопка была нажата');
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CounterComponent title={'Orange'} count={9} />
+      <CounterComponent title={'Apple'} count={4} />
+      <CounterComponent title={'Lemon'} count={3} />
+      <button onClick={handler}>PUSH ME</button>
+      <Input />
     </div>
   );
 }
