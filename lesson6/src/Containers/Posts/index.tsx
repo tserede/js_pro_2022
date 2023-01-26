@@ -1,11 +1,11 @@
 import { PageWrapper } from 'Components/Common/PageWrapper';
-import { AuthPage } from 'Components/Auth/Auth';
+import { PostsList } from 'Components/Posts';
 import React from 'react';
 
-export const Auth = () => {
+export const Posts = () => {
   return (
     <PageWrapper>
-      <AuthPage />
+      <PostsList />
     </PageWrapper>
   );
 };

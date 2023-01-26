@@ -1,11 +1,11 @@
 import { PageWrapper } from 'Components/Common/PageWrapper';
-import { Content } from 'Components/Main/Content/Content';
+import { RegPage } from 'Components/Reg';
 
 import React from 'react';
-export const Main = () => {
+export const Reg = () => {
   return (
     <PageWrapper>
-      <Content />
+      <RegPage />
     </PageWrapper>
   );
 };

@@ -1,11 +1,9 @@
 import { PageWrapper } from 'Components/Common/PageWrapper';
-import { AuthPage } from 'Components/Auth/Auth';
 import React from 'react';
-
-export const Auth = () => {
+export const NotFound = () => {
   return (
     <PageWrapper>
-      <AuthPage />
+      <h1>404</h1>
     </PageWrapper>
   );
 };

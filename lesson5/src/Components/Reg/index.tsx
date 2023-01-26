@@ -1,12 +1,12 @@
 import React from 'react';
 import { routes } from 'Helpers/Constants/routes';
-import style from './Auth.module.scss';
+import style from './Reg.module.scss';
 
-export const AuthPage = () => {
+export const RegPage = () => {
   return (
     <main className={style.wrapper}>
-      <h1>Авторизация</h1>
-      <p>Пожалуйста, авторизуйтесь</p>
+      <h1>Регистрация</h1>
+      <p>Пожалуйста, зарегистрируйтесь</p>
       <p>Логин</p>
       <input></input>
       <p>Пароль</p>
