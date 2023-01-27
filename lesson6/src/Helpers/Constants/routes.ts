@@ -3,5 +3,6 @@ export const routes = {
   posts: '/posts',
   notFound: '*',
   auth: '/auth',
-  reg: '/reg'
+  reg: '/reg',
+  about: '/about'
 };

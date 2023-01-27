@@ -1,13 +1,18 @@
 import { Main } from 'Containers/Main';
 import { Posts } from 'Containers/Posts';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { routes } from 'Helpers/Constants/routes';
 import { NotFound } from 'Containers/NotFound';
 import { Auth } from 'Containers/Auth';
 import { Reg } from 'Containers/Reg';
+import { About } from 'Containers/About';
 
 function App() {
+  console.log('APP');
+  useEffect(() => {
+    console.log('APP MOUNT');
+  }, []);
   return (
     <Routes>
       <Route path={routes.main} element={<Main />} />
@@ -15,6 +20,7 @@ function App() {
       <Route path={routes.notFound} element={<NotFound />} />
       <Route path={routes.auth} element={<Auth />} />
       <Route path={routes.reg} element={<Reg />} />
+      <Route path={routes.about} element={<About />} />
     </Routes>
   );
 }

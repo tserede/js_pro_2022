@@ -1,24 +1,38 @@
-.header {
+.wrapper {
   height: 60px;
   padding: 0 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(81, 81, 126, 0.342);
+  background-color: rgba(0, 16, 85, 0.922);
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 
   &_logo {
     color: red;
     font-size: 20px;
+    height: 48px;
   }
-  &_auth{
-    justify-content: flex-start;
-  }
-
   &_title {
-    color: chocolate;
+    color: #fff;
   }
-  & > ul {
+  &_nav {
     display: flex;
-    gap: 120px;
+    flex-direction: column;
+    width: 700px;
+    & > ul {
+      list-style: none;
+      display: flex;
+      gap: 18px;
+      & > li > a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
   }
 }
+
