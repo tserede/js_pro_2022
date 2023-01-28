@@ -1,11 +1,11 @@
 import { PageWrapper } from 'Components/Common/PageWrapper';
-import { AuthForm } from 'Components/Auth';
 import React from 'react';
+import { AboutPage } from 'Components/AboutContent';
 
-export const Auth = () => {
+export const About = () => {
   return (
     <PageWrapper>
-      <AuthForm />
+      <AboutPage />
     </PageWrapper>
   );
 };

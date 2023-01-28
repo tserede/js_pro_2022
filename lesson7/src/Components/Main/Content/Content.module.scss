@@ -1,0 +1,15 @@
+.content{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   flex-direction: column;
+   background-color: white;
+}
+.btn_gpoup{
+      width: 250px;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+  }

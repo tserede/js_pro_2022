@@ -1,11 +1,9 @@
 import { PageWrapper } from 'Components/Common/PageWrapper';
-import { AuthForm } from 'Components/Auth';
 import React from 'react';
-
-export const Auth = () => {
+export const NotFound = () => {
   return (
     <PageWrapper>
-      <AuthForm />
+      <h1>404</h1>
     </PageWrapper>
   );
 };
